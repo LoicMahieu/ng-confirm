@@ -1,0 +1,11 @@
+{
+  "name": "ng-confirm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ng-confirm.js",
+  "scripts": {
+    "test": "jshint ng-confirm.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
