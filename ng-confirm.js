@@ -5,8 +5,8 @@
 
 var confirm = window.confirm;
 
-var mod = angular.module('ngConfirm', [])
-  .directive('confirm', [function () {
+var mod = angular.module('confirmDialog', [])
+  .directive('confirmDialog', [function () {
     return {
       priority: -1,
       restrict: 'A',
