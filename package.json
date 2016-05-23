@@ -1,6 +1,6 @@
 {
   "name": "ng-confirm-dialog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple confirm on button with built-in browser confirm.",
   "main": "ng-confirm.js",
   "scripts": {
