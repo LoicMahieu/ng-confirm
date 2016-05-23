@@ -12,7 +12,7 @@ var mod = angular.module('confirmDialog', [])
       restrict: 'A',
       link: function (scope, element, attrs) {
         element.bind('click', function (e) {
-          var message = attrs.confirm;
+          var message = attrs.confirmDialog;
           if (message) {
             if (!confirm(message)) {
               e.stopImmediatePropagation();
