@@ -11,15 +11,15 @@ var mod = angular.module('ngConfirm', [])
       priority: -1,
       restrict: 'A',
       link: function (scope, element, attrs) {
-        var message = attrs.confirm;
-        if (message) {
-          element.bind('click', function (e) {
+        element.bind('click', function (e) {
+          var message = attrs.confirm;
+          if (message) {
             if (!confirm(message)) {
               e.stopImmediatePropagation();
               e.preventDefault();
             }
-          });
-        }
+          }
+        });
       }
     };
   }]);
