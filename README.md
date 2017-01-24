@@ -1,5 +1,7 @@
 # ng-confirm-dialog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LoicMahieu/ng-confirm.svg)](https://greenkeeper.io/)
+
 Simple confirm on button with built-in browser confirm.
 
 ### Install
